@@ -1,6 +1,11 @@
 #rifai il login e metti il json
 materie = this.materie
-voti_3={materie[0]:[],materie[1]:[],materie[2]:[],materie[3] :[],materie[4]:[],materie[5]:[],materie[6]:[],materie[7]:[],materie[8]:[],materie[9]:[]} 
+if len(materie) == 10:
+  voti_3={materie[0]:[],materie[1]:[],materie[2]:[],materie[3] :[],materie[4]:[],materie[5]:[],materie[6]:[],materie[7]:[],materie[8]:[],materie[9]:[]} 
+elif len(materie) == 11:
+  voti_3={materie[0]:[],materie[1]:[],materie[2]:[],materie[3] :[],materie[4]:[],materie[5]:[],materie[6]:[],materie[7]:[],materie[8]:[],materie[9]:[],materie[10]:[]} 
+else:
+  voti_3={materie[0]:[],materie[1]:[],materie[2]:[],materie[3] :[],materie[4]:[],materie[5]:[],materie[6]:[],materie[7]:[],materie[8]:[],materie[9]:[],materie[10]:[],materie[11]:[]} 
 mmm3 = this.media
 cambiamenti = this.preferenze
 comportamento = this.comportamento
